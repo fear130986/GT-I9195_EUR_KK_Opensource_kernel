@@ -40,10 +40,10 @@ import subprocess
 # force LANG to be set to en_US.UTF-8 to get consistent warnings.
 
 allowed_warnings = set([
-    "alignment.c:327",
-    "mmu.c:602",
-    "return_address.c:62",
-	"swab.h:49",
+   "alignment.c:327",
+   "mmu.c:602",
+   "return_address.c:62",
+   "swab.h:49",
    "SemaLambda.cpp:946",
    "CGObjCGNU.cpp:1414",
    "BugReporter.h:146",
@@ -69,6 +69,7 @@ allowed_warnings = set([
    "lowmemorykiller.c:223",
    "pm8921-bms.c:956",
    "pm8921-bms.c:949",
+   "hci_conn.c:407",
  ])
 
 # Capture the name of the object file, can find it.
